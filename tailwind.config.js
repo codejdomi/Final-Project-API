@@ -14,6 +14,10 @@ export default {
     extend: {
       backgroundColor:{
         whiteez: '#EEEEEE',
+        
+      },
+      colors: {
+        bluez: '#1E3E62',
       },
       textColor:{
         blckgray: '#222831',
