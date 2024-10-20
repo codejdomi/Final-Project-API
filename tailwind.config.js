@@ -10,14 +10,37 @@ export default {
       source: ['Source Sans 3', 'san-serif',],
       roboto: ['Roboto', 'san-serif',],
       poppins: ['Poppins', 'san-serif',],
+      Montserrat: ['Montserrat', 'san-serif'],
     },
     extend: {
       backgroundColor:{
         whiteez: '#EEEEEE',
+        barbel: '#10375C',
+        sailor: '#5070A0',
+        grayy: '#9DB2BF',
       },
       textColor:{
         blckgray: '#222831',
+        blueblack: '#0B192C',
       },
+      height: {
+        '97': '687px',  // Custom height for 75%
+        '98': '600px', 
+        '99': '495px', 
+      },
+      width: {
+        '97': '1450px',  // Custom height for 75%
+        '98': '400px', 
+      },
+      colors: {
+        customColor1: '#3A4D67',  // Darker blue
+        customColor2: '#5070A0',  // Mid-tone blue
+        customColor3: '#2B497F',  // Deep blue
+      },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(to right, #3A4D67, #5070A0, #2B497F)',
+      },
+      
     },
   },
   plugins: [],
