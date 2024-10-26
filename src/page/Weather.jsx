@@ -146,7 +146,7 @@ const Weather = () => {
 
         {/* Display the 3 day Forecast text */}
         <div className='flex justify-center p-2 text-5xl mt-4'>
-            <h1 className='font-poppins font-bold text-blueblack '>3 Day Forecast</h1>
+            <h1 className='font-poppins font-bold text-blueblack '>Today's Forecast</h1>
         </div>
         
         {/* Display the 3 day Forecast */}
